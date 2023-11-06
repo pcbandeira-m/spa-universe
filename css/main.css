@@ -1,0 +1,59 @@
+@import "/css/home.css";
+@import "/css/theuniverse.css";
+@import "/css/exploration.css";
+
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 5.4rem;
+
+  width: 100%;
+  height: 12.2rem;
+  margin-top: 4rem;
+  margin-left: 7.2rem;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: hsla(240, 7%, 78%, 1);
+}
+
+nav a:hover {
+  cursor: pointer;
+}
+
+nav a:focus {
+  color: hsla(0, 0%, 100%, 1);
+}
+
+#app {
+  height: 59.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 2.4rem;
+}
